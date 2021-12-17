@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: Text(
                   'view all',
-                  style: TextStyle(color: Colors.grey),
+                  style: TextStyle(color: Colors.black),
                 ),
               ),
             ],
@@ -102,7 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: Text(
                   'view all',
-                  style: TextStyle(color: Colors.grey),
+                  style: TextStyle(color: Colors.black),
                 ),
               ),
             ],
@@ -163,7 +163,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: Text(
                   'view all',
-                  style: TextStyle(color: Colors.grey),
+                  style: TextStyle(color: Colors.black),
                 ),
               ),
             ],

@@ -76,9 +76,9 @@ class _SingalProductState extends State<SingalProduct> {
                           ),
                         ),
                         Text(
-                          '${widget.productPrice}\$/${unitData == null?firstValue:unitData}',
+                          '${widget.productPrice}',
                           style: TextStyle(
-                            color: Colors.grey,
+                            color: Colors.black,
                           ),
                         ),
                         SizedBox(
