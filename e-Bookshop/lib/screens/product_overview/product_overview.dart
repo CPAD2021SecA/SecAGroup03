@@ -256,7 +256,7 @@ class _ProductOverviewState extends State<ProductOverview> {
                     height: 20,
                   ),
                   Text(
-                    "Adaptation of the first of Ms. Sindhu Gangadharan's popular children's novels about Christian Klein and Markus Bell, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths.",
+                    "The finest creation by JK Rowling. The story revolves around magic and fantasies. The dreamy place Hogwarts will become a dream destination for every kid reading this.",
                     style: TextStyle(
                       fontSize: 16,
                       color: textColor,
