@@ -7,6 +7,7 @@ import 'package:ebookshop/providers/check_out_provider.dart';
 import 'package:ebookshop/providers/product_provider.dart';
 import 'package:ebookshop/providers/review_cart_provider.dart';
 import 'package:ebookshop/providers/user_provider.dart';
+import 'package:ebookshop/providers/wishlist_provider.dart';
 import 'package:ebookshop/screens/home/home_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -30,6 +31,9 @@ class MyApp extends StatelessWidget {
         ),
         ChangeNotifierProvider<ReviewCartProvider>(
           create: (context) => ReviewCartProvider(),
+        ),
+        ChangeNotifierProvider<WishListProvider>(
+          create: (context) => WishListProvider(),
         ),
         ChangeNotifierProvider<CheckoutProvider>(
           create: (context) => CheckoutProvider(),
