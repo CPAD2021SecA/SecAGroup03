@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/models/delivery_address_model.dart';
-import 'package:food_app/providers/review_cart_provider.dart';
-import 'package:food_app/screens/check_out/delivery_details/single_delivery_item.dart';
-import 'package:food_app/screens/check_out/payment_summary/my_google_pay.dart';
-import 'package:food_app/screens/check_out/payment_summary/order_item.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/models/delivery_address_model.dart';
+import 'package:ebookshop/providers/review_cart_provider.dart';
+import 'package:ebookshop/screens/check_out/delivery_details/single_delivery_item.dart';
+import 'package:ebookshop/screens/check_out/payment_summary/my_google_pay.dart';
+import 'package:ebookshop/screens/check_out/payment_summary/order_item.dart';
 import 'package:provider/provider.dart';
 
 class PaymentSummary extends StatefulWidget {

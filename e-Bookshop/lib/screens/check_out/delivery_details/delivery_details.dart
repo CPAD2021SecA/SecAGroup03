@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/models/delivery_address_model.dart';
-import 'package:food_app/providers/check_out_provider.dart';
-import 'package:food_app/screens/check_out/add_delivery_address/add_delivery_address.dart';
-import 'package:food_app/screens/check_out/delivery_details/single_delivery_item.dart';
-import 'package:food_app/screens/check_out/payment_summary/payment_summary.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/models/delivery_address_model.dart';
+import 'package:ebookshop/providers/check_out_provider.dart';
+import 'package:ebookshop/screens/check_out/add_delivery_address/add_delivery_address.dart';
+import 'package:ebookshop/screens/check_out/delivery_details/single_delivery_item.dart';
+import 'package:ebookshop/screens/check_out/payment_summary/payment_summary.dart';
 import 'package:provider/provider.dart';
 
 class DeliveryDetails extends StatefulWidget {

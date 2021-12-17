@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
+import 'package:ebookshop/config/colors.dart';
 
 class SingleDeliveryItem extends StatelessWidget {
   final String title;

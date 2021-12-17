@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/models/user_model.dart';
-import 'package:food_app/providers/user_provider.dart';
-import 'package:food_app/screens/home/drawer_side.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/models/user_model.dart';
+import 'package:ebookshop/providers/user_provider.dart';
+import 'package:ebookshop/screens/home/drawer_side.dart';
 
 class MyProfile extends StatefulWidget {
   UserProvider userProvider;

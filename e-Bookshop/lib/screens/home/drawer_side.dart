@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/providers/user_provider.dart';
-import 'package:food_app/screens/home/home_screen.dart';
-import 'package:food_app/screens/my_profile/my_profile.dart';
-import 'package:food_app/screens/review_cart/review_cart.dart';
-import 'package:food_app/screens/wishList/wish_list.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/providers/user_provider.dart';
+import 'package:ebookshop/screens/home/home_screen.dart';
+import 'package:ebookshop/screens/my_profile/my_profile.dart';
+import 'package:ebookshop/screens/review_cart/review_cart.dart';
+import 'package:ebookshop/screens/wishList/wish_list.dart';
 
 class DrawerSide extends StatefulWidget {
   UserProvider userProvider;

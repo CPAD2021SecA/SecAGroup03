@@ -2,8 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:food_app/models/delivery_address_model.dart';
-import 'package:food_app/models/review_cart_model.dart';
+import 'package:ebookshop/models/delivery_address_model.dart';
+import 'package:ebookshop/models/review_cart_model.dart';
 import 'package:location/location.dart';
 
 class CheckoutProvider with ChangeNotifier {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/models/review_cart_model.dart';
-import 'package:food_app/providers/review_cart_provider.dart';
-import 'package:food_app/screens/check_out/delivery_details/delivery_details.dart';
-import 'package:food_app/widgets/single_item.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/models/review_cart_model.dart';
+import 'package:ebookshop/providers/review_cart_provider.dart';
+import 'package:ebookshop/screens/check_out/delivery_details/delivery_details.dart';
+import 'package:ebookshop/widgets/single_item.dart';
 import 'package:provider/provider.dart';
 
 class ReviewCart extends StatelessWidget {

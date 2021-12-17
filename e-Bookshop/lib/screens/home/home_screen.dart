@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/providers/product_provider.dart';
-import 'package:food_app/providers/user_provider.dart';
-import 'package:food_app/screens/product_overview/product_overview.dart';
-import 'package:food_app/screens/home/single_product.dart';
-import 'package:food_app/screens/review_cart/review_cart.dart';
-import 'package:food_app/screens/search/search.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/providers/product_provider.dart';
+import 'package:ebookshop/providers/user_provider.dart';
+import 'package:ebookshop/screens/product_overview/product_overview.dart';
+import 'package:ebookshop/screens/home/single_product.dart';
+import 'package:ebookshop/screens/review_cart/review_cart.dart';
+import 'package:ebookshop/screens/search/search.dart';
 import 'package:provider/provider.dart';
 import 'drawer_side.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/models/product_model.dart';
-import 'package:food_app/widgets/single_item.dart';
+import 'package:ebookshop/models/product_model.dart';
+import 'package:ebookshop/widgets/single_item.dart';
 
 
 class Search extends StatefulWidget {

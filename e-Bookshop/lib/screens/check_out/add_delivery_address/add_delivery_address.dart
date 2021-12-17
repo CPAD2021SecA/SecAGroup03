@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/providers/check_out_provider.dart';
-import 'package:food_app/screens/check_out/google_map/google_map.dart';
-import 'package:food_app/widgets/costom_text_field.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/providers/check_out_provider.dart';
+import 'package:ebookshop/screens/check_out/google_map/google_map.dart';
+import 'package:ebookshop/widgets/costom_text_field.dart';
 import 'package:provider/provider.dart';
 
 class AddDeliverAddress extends StatefulWidget {

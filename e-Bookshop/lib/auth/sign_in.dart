@@ -2,8 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/button_view.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
-import 'package:food_app/providers/user_provider.dart';
-import 'package:food_app/screens/home/home_screen.dart';
+import 'package:ebookshop/providers/user_provider.dart';
+import 'package:ebookshop/screens/home/home_screen.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:provider/provider.dart';
 

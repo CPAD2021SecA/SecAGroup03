@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/models/product_model.dart';
-import 'package:food_app/widgets/count.dart';
-import 'package:food_app/widgets/product_unit.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/models/product_model.dart';
+import 'package:ebookshop/widgets/count.dart';
+import 'package:ebookshop/widgets/product_unit.dart';
 
 class SingalProduct extends StatefulWidget {
   final String productImage;

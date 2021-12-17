@@ -3,11 +3,11 @@ import 'dart:ui';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:food_app/config/colors.dart';
-import 'package:food_app/models/review_cart_model.dart';
-import 'package:food_app/providers/wishlist_provider.dart';
-import 'package:food_app/screens/review_cart/review_cart.dart';
-import 'package:food_app/widgets/count.dart';
+import 'package:ebookshop/config/colors.dart';
+import 'package:ebookshop/models/review_cart_model.dart';
+import 'package:ebookshop/providers/wishlist_provider.dart';
+import 'package:ebookshop/screens/review_cart/review_cart.dart';
+import 'package:ebookshop/widgets/count.dart';
 import 'package:provider/provider.dart';
 
 enum SinginCharacter { fill, outline }
