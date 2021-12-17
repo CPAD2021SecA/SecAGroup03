@@ -18,7 +18,7 @@ class ProductProvider with ChangeNotifier {
     search.add(productModel);
   }
 
-  /////////////// herbsProduct ///////////////////////////////
+
   List<ProductModel> comingSoonProductList = [];
 
   fetchCommingSoonProductData() async {
@@ -50,7 +50,7 @@ class ProductProvider with ChangeNotifier {
     List<ProductModel> newList = [];
 
     QuerySnapshot value =
-        await FirebaseFirestore.instance.collection("FreshProduct").get();
+        await FirebaseFirestore.instance.collection("RecentlyLaunchedProduct").get();
 
     value.docs.forEach(
       (element) {
@@ -74,7 +74,7 @@ class ProductProvider with ChangeNotifier {
     List<ProductModel> newList = [];
 
     QuerySnapshot value =
-        await FirebaseFirestore.instance.collection("RootProduct").get();
+        await FirebaseFirestore.instance.collection("RecommendedProduct").get();
 
     value.docs.forEach(
       (element) {
